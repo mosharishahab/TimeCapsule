@@ -21,4 +21,20 @@ function OpenCapsuleScreen({ onBack }) {
             <input
               type="text"
               className="w-full p-2 border rounded-md"
-              placeholder="
+              placeholder="کد کپسول زمان خود را وارد کنید"
+            />
+          </div>
+
+          <button
+            type="submit"
+            className="w-full bg-green-500 text-white p-3 rounded-md hover:bg-green-600"
+          >
+            باز کردن کپسول
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
+
+export default OpenCapsuleScreen;
